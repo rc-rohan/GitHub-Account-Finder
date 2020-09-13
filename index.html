@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Account Finder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <div class="image-area">
+          <img src="logo.png" alt="" />
+        </div>
+        <strong>Finder</strong>
+      </div>
+      <div class="container">
+        <div class="search-details">
+          <h1 class="header">Search GitHub User</h1>
+          <p class="search-description">
+            Enter the username to fetch the details of the users
+          </p>
+          <input type="text" placeholder="Enter Username" />
+        </div>
+        <div class="profile"></div>
+        <div class="repos"></div>
+      </div>
+    </main>
+    <script src="github.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
